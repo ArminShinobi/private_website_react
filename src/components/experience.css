@@ -1,0 +1,12 @@
+.experience{
+    background-image: url("../img/sand_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+h2, p, li{
+    color: #fff;
+}

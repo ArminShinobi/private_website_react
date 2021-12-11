@@ -2,11 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import NavBar from './components/navbar';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./components/about";
+import Experience from "./components/experience";
+import Portfolio from "./components/portfolio";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Router>
+          <NavBar/>
+          <Routes>
+              <Route exact path="/" element={<App />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/experience" element={<Experience />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+          </Routes>
+      </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
