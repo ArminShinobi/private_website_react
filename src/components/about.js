@@ -1,4 +1,4 @@
-import profilePicture from '../img/profile_picture.jpeg';
+import profilePictureImg from '../img/profile_picture.jpeg';
 import './about.css';
 
 function About() {
@@ -6,7 +6,7 @@ function About() {
         <div className="about">
             <div className="d-flex flex-row min-vh-100 justify-content-center align-items-center">
                 <div className="col-lg-6">
-                    <img src={profilePicture} className="img-fluid mx-auto d-block img-thumbnail" alt={""}/>
+                    <img src={profilePictureImg} className="img-fluid mx-auto d-block img-thumbnail" alt={""}/>
                 </div>
                 <div className="col-lg-6">
                     <h2>About Me</h2>

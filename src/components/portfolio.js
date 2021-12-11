@@ -1,3 +1,5 @@
+import individumealImg from '../img/individumeal.png';
+import cyberpunkImg from '../img/cyberpunk_2077.png';
 import './portfolio.css';
 
 function Portfolio(){
@@ -19,7 +21,7 @@ function Portfolio(){
                     <a href="https://github.com/ordass00/IT-Projekt" className="img-zoom">
                         <div className="work_box">
                             <div className="work_img">
-                                <img src="../img/individumeal.png" className="img-fluid mx-auto d-block rounded" alt={""}/>
+                                <img src={individumealImg} className="img-fluid mx-auto d-block rounded" alt={""}/>
                             </div>
                             <div className="work_detail">
                                 <p className="mb-2">Web Developing</p>
@@ -32,7 +34,7 @@ function Portfolio(){
                     <a href="https://github.com/ordass00/Text-Analytics-Project-Elective-TH.OHM" className="img-zoom">
                         <div className="work_box">
                             <div className="work_img">
-                                <img src="../img/cyberpunk_2077.png" className="img-fluid mx-auto d-block rounded" alt={""}/>
+                                <img src={cyberpunkImg} className="img-fluid mx-auto d-block rounded" alt={""}/>
                             </div>
                             <div className="work_detail">
                                 <p className="mb-2">Data Science</p>
@@ -42,10 +44,10 @@ function Portfolio(){
                     </a>
                 </div>
                 <div className="col-lg-4 work_item wordpress WORK webdesign">
-                    <a href="" className="img-zoom">
+                    <a href="https://github.com/ordass00/IT-Projekt" className="img-zoom">
                         <div className="work_box">
                             <div className="work_img">
-                                <img src="../img/individumeal.png" className="img-fluid mx-auto d-block rounded" alt={""}/>
+                                <img src={individumealImg} className="img-fluid mx-auto d-block rounded" alt={""}/>
                             </div>
                             <div className="work_detail">
                                 <p className="mb-2">Placeholder</p>
