@@ -8,7 +8,7 @@ import NavBar from './components/navbar';
 import About from "./components/about";
 import Experience from "./components/experience";
 import Portfolio from "./components/portfolio";
-
+import Contact from "./components/contact";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +19,7 @@ ReactDOM.render(
               <Route path="/about" element={<About />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/contact" element={<Contact />} />
           </Routes>
       </Router>
   </React.StrictMode>,

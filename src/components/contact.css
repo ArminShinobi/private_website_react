@@ -1,0 +1,20 @@
+.contact{
+    background-image: url("../img/pencil_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.form-control{
+    margin-bottom: 1em;
+}
+
+label{
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: #fff;
+    color: black;
+}
