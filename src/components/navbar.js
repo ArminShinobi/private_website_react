@@ -25,6 +25,9 @@ class NavBar extends React.Component {
                         <LinkContainer to="/contact">
                             <Nav.Link>Contact</Nav.Link>
                         </LinkContainer>
+                        <LinkContainer to="/privacy_policy">
+                            <Nav.Link>Privacy Policy</Nav.Link>
+                        </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -9,6 +9,7 @@ import About from "./components/about";
 import Experience from "./components/experience";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
+import PrivacyPolicy from "./components/privacyPolicy";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
               <Route path="/experience" element={<Experience />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/privacy_policy" element={<PrivacyPolicy />} />
           </Routes>
       </Router>
   </React.StrictMode>,
