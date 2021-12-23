@@ -1,0 +1,38 @@
+{
+  "api": {
+    "privatewebsite": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 365,
+              "apiKeyExpirationDate": "2022-12-15T19:04:41.327Z",
+              "description": "private-website-contact-form"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
+  "function": {
+    "privateWebsiteContactForm": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "api",
+          "resourceName": "privatewebsite",
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput"
+          ]
+        }
+      ]
+    }
+  }
+}

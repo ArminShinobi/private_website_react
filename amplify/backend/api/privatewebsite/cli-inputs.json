@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "privatewebsite",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/arminbruckmann/Workspace/Web Development/React-Private-Website Kopie/private-website/amplify/backend/api/privatewebsite/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2022-12-15T19:04:41.327Z",
+      "keyDescription": "private-website-contact-form"
+    }
+  }
+}

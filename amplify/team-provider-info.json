@@ -1,0 +1,24 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-privatewebsite-dev-200305-authRole",
+      "UnauthRoleArn": "arn:aws:iam::397567203285:role/amplify-privatewebsite-dev-200305-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::397567203285:role/amplify-privatewebsite-dev-200305-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-privatewebsite-dev-200305-deployment",
+      "UnauthRoleName": "amplify-privatewebsite-dev-200305-unauthRole",
+      "StackName": "amplify-privatewebsite-dev-200305",
+      "StackId": "arn:aws:cloudformation:eu-central-1:397567203285:stack/amplify-privatewebsite-dev-200305/a4059b40-5dd9-11ec-b337-020bf6bd887a",
+      "AmplifyAppId": "dtwemqhwacglh"
+    },
+    "categories": {
+      "function": {
+        "privateWebsiteContactForm": {
+          "sesEmail": "armin.bruckmann@icloud.com",
+          "deploymentBucketName": "amplify-privatewebsite-dev-200305-deployment",
+          "s3Key": "amplify-builds/privateWebsiteContactForm-7772646d50684d715169-build.zip"
+        }
+      }
+    }
+  }
+}
