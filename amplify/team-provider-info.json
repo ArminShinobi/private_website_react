@@ -18,6 +18,12 @@
           "deploymentBucketName": "amplify-privatewebsite-dev-200305-deployment",
           "s3Key": "amplify-builds/privateWebsiteContactForm-7772646d50684d715169-build.zip"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dtwemqhwacglh",
+          "type": "cicd"
+        }
       }
     }
   }

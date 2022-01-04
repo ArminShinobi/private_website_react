@@ -6,7 +6,7 @@ import './navbar.css';
 class NavBar extends React.Component {
     render() {
         return (
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
                 <LinkContainer to="/">
                     <Navbar.Brand>Home</Navbar.Brand>
                 </LinkContainer>

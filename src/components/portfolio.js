@@ -9,14 +9,14 @@ function Portfolio(){
             <div className="row justify-content-center">
                 <div className="col-lg-12">
                     <div className="text-center">
-                        <h2>Portfolio</h2>
-                        <p className="mx-auto section-subtitle mt-3">
+                        <h2 className="mx-auto" style={{"margin-top":" 5rem"}}>Portfolio</h2>
+                        <p className="mx-auto mt-3">
                             "Projects that I worked on in university and in my free time"
                         </p>
                     </div>
                 </div>
             </div>
-            <div className="row mt-4 work-filter">
+            <div className="row mt-4 mx-4 work-filter">
                 <div className="col-lg-4 work_item webdesign wordpress">
                     <a href="https://github.com/ordass00/IT-Projekt" className="img-zoom">
                         <div className="work_box">
