@@ -1,5 +1,3 @@
-import './privacyPolicy.css';
-
 function PrivacyPolicy(){
     return (
         <div style={{"background-color":"black"}}>

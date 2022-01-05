@@ -1,15 +1,3 @@
-.portfolio{
-    background-image: url("../img/sand_background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-}
-
-h2, p{
-    color: #fff;
-}
-
 .work_menu li a {
     cursor: pointer;
     display: block;

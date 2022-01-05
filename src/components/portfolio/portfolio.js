@@ -1,10 +1,11 @@
-import individumealImg from '../img/individumeal.png';
-import cyberpunkImg from '../img/cyberpunk_2077.png';
+import individumealImg from '../../img/foreground/individumeal.png';
+import cyberpunkImg from '../../img/foreground/cyberpunk_2077.png';
+import sandBackgroundImg from "../../img/background/sand_background.jpg";
 import './portfolio.css';
 
 function Portfolio(){
     return(
-        <div className="portfolio">
+        <div className="background-img" style={{'backgroundImage': `url(${sandBackgroundImg})`}}>
             <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
             <div className="row justify-content-center">
                 <div className="col-lg-12">

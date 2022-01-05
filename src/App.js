@@ -1,4 +1,4 @@
-import './App.css';
+import chairBackgroundImg from "./img/background/chair_background.jpg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import React from "react";
@@ -8,7 +8,7 @@ Amplify.configure(config)
 
 function App() {
     return (
-        <div className="app">
+        <div className="background-img" style={{'backgroundImage': `url(${chairBackgroundImg})`}}>
                 <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                     <div className="col-lg-12">
                         <div className="text-center">

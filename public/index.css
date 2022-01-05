@@ -1,12 +1,10 @@
-.experience{
-    background-image: url("../img/water_and_fire_background.jpg");
+h1, h2, h3, h4, p, li, label{
+    color: white;
+}
+
+.background-img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-}
-
-
-h2, p, li{
-    color: #fff;
 }

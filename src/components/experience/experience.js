@@ -1,8 +1,8 @@
-import './experience.css';
+import WaterAndFireBackgroundImg from "../../img/background/water_and_fire_background.jpg"
 
 function Experience(){
     return(
-        <div className="experience">
+        <div className="background-img" style={{'backgroundImage': `url(${WaterAndFireBackgroundImg})`}}>
             <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                 <div className="col-lg-12">
                     <div className="text-center">

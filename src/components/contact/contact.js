@@ -1,7 +1,8 @@
 import './contact.css';
+import pencilBackgroundImg from "../../img/background/pencil_background.jpg";
 import {useRef, useState} from 'react'
 import {API} from 'aws-amplify'
-import {createCandidate} from '../graphql/mutations'
+import {createCandidate} from '../../graphql/mutations'
 import {Col, Row, Toast} from "react-bootstrap";
 
 const Contact = () => {
@@ -41,7 +42,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="contact">
+        <div className="background-img" style={{'backgroundImage': `url(${pencilBackgroundImg})`}}>
             <Row>
                 <Col xs={6}>
                     <Toast bg="success" onClose={() => setShowSuccess(false)} show={showSuccess} delay={3000} autohide>
