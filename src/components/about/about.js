@@ -6,7 +6,7 @@ function About() {
         <div className="background-img" style={{'backgroundImage': `url(${waterBackgroundImg})`}}>
             <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                 <div className="row m-4">
-M                    <div className="col-lg-6 mt-5">
+                    <div className="col-lg-6 mt-5">
                         <img src={profilePictureImg} className="img-fluid mx-auto d-block img-thumbnail" alt={""}/>
                     </div>
                     <div className="col-lg-6 mt-5">

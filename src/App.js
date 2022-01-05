@@ -4,6 +4,7 @@ import 'bootstrap';
 import React from "react";
 import Amplify from '@aws-amplify/core'
 import config from '../src/aws-exports'
+import CookieBot from 'react-cookiebot';
 Amplify.configure(config)
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                         </div>
                     </div>
                 </div>
+            <CookieBot domainGroupId="9173d89d-ac89-4143-82cf-039b0974fdd7" />
         </div>);
 }
 
