@@ -6,10 +6,10 @@ function About() {
         <div className="background-img" style={{'backgroundImage': `url(${waterBackgroundImg})`}}>
             <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                 <div className="row m-4">
-                    <div className="col-lg-6 mt-3">
+M                    <div className="col-lg-6 mt-5">
                         <img src={profilePictureImg} className="img-fluid mx-auto d-block img-thumbnail" alt={""}/>
                     </div>
-                    <div className="col-lg-6 mt-3">
+                    <div className="col-lg-6 mt-5">
                         <h2>About Me</h2>
                         <h4>Hi! My name is Armin Bruckmann</h4>
                         <p>I graduated from Peter Vischer Gymnasium in 2017 with a grade of 2.5.</p>
