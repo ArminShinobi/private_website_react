@@ -17,7 +17,7 @@ ReactDOM.render(
           <NavBar/>
           <Routes>
               <Route exact path="/" element={<App />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/about_me" element={<About />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/contact" element={<Contact />} />

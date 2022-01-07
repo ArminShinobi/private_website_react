@@ -86,13 +86,14 @@ const Contact = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-12">
                         <form onSubmit={handleContactFormSubmit}>
-                            <div className="form-group">
+                            <div className="form-group mt-4">
                                 <label htmlFor="name">Name</label>
                                 <input type="text" className="form-control" id="name" placeholder="Enter your name"
                                        required={true}
                                        autoComplete={"name"}
                                        minLength={2}
                                        maxLength={50}
+                                       size={30}
                                        ref={initialRef}
                                        value={formState.name}
                                        onChange={(e) =>

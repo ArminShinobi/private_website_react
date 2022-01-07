@@ -4,14 +4,12 @@ function Experience(){
     return(
         <div className="background-img" style={{'backgroundImage': `url(${WaterAndFireBackgroundImg})`}}>
             <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
-                <div className="col-lg-12">
-                    <div className="text-center">
+                <div className="col-lg-12 text-center">
                         <h2 style={{"margin-top":" 5rem"}}>Experience</h2>
-                        <p>Over the course of time, I have learned and worked with many programming languages and tools.
-                            <br /> I also earned some certificates</p>
-                    </div>
+                        <h6>Over the course of time, I have learned and worked with many programming languages and tools.
+                            <br /> I also earned some certificates</h6>
                 </div>
-                <div className="col-lg-4">
+                    <div className="col-lg-4 ms-3">
                     <div className="mt-3">
                         <h2>Programming languages</h2>
                         <ul>
@@ -22,21 +20,24 @@ function Experience(){
                             <li>C#</li>
                         </ul>
                     </div>
-                </div>
-                <div className="col-lg-4">
+                {/*</div>*/}
+                {/*<div className="col-lg-4">*/}
                     <div className="mt-3">
-                        <h2 className="align-items-center">Tools</h2>
+                        <h2>Tools</h2>
                         <ul>
-                            <li>Robot Framework</li>
                             <li>Git in combination with GitHub/Stash</li>
                             <li>Bootstrap</li>
+                            <li>React</li>
+                            <li>AWS</li>
                             <li>Docker</li>
+                            <li>Jira</li>
+                            <li>Robot Framework</li>
                         </ul>
                     </div>
-                </div>
-                <div className="col-lg-4">
+                {/*</div>*/}
+                {/*<div className="col-lg-4">*/}
                     <div className="mt-3">
-                        <h2 className="align-items-center">Certificates</h2>
+                        <h2>Certificates</h2>
                         <ul>
                             <li>Crash Course on Python</li>
                             <li>Docker for absolute beginners</li>

@@ -13,8 +13,8 @@ class NavBar extends React.Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <LinkContainer to="/about">
-                            <Nav.Link>About</Nav.Link>
+                        <LinkContainer to="/about_me">
+                            <Nav.Link>About Me</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/experience">
                             <Nav.Link>Experience</Nav.Link>
