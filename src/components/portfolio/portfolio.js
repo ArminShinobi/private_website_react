@@ -10,7 +10,7 @@ function Portfolio() {
             <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                 <div className="row justify-content-center">
                     <div className="col-lg-12 text-center">
-                        <h2 style={{"margin-top": "5rem"}}>Portfolio</h2>
+                        <h2 style={{"marginTop": "5rem"}}>Portfolio</h2>
                         <p>
                             Projects that I worked on in university and in my free time
                         </p>

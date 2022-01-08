@@ -5,7 +5,7 @@ function Experience() {
         <div className="background-img" style={{'backgroundImage': `url(${WaterAndFireBackgroundImg})`}}>
             <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                 <div className="col-lg-12 text-center">
-                    <h2 style={{"margin-top": "5rem"}}>Experience</h2>
+                    <h2 style={{"marginTop": "5rem"}}>Experience</h2>
                     <h6>Over the course of time, I have learned and worked with many programming languages and tools.
                         <br /> I also earned some certificates</h6>
                 </div>

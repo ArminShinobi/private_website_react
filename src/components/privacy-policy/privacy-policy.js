@@ -2,7 +2,7 @@ import "./privacy-policy.css";
 
 function PrivacyPolicy() {
     return (
-        <div style={{"background-color": "black"}}>
+        <div style={{"backgroundColor": "black"}}>
             <div className="privacy-policy">
                 <h1>Datenschutz&shy;erkl&auml;rung</h1>
                 <h2>1. Datenschutz auf einen Blick</h2>

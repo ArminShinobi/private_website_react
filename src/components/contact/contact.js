@@ -62,13 +62,13 @@ const Contact = () => {
     return (
         <div className="background-img" style={{'backgroundImage': `url(${pencilBackgroundImg})`}}>
             <Row>
-                <Col xs={6} style={{"margin-top": "3.5rem"}}>
+                <Col xs={6} style={{"marginTop": "3.5rem"}}>
                     <Toast bg={toastState.variant} onClose={() => setToastState({...toastState, show: false})}
                            show={toastState.show} delay={3000} autohide style={{"position": "absolute"}}>
                         <Toast.Header>
                             <strong className="me-auto">{toastState.header}</strong>
                         </Toast.Header>
-                        <Toast.Body style={{"white-space": "pre-line"}}>{toastState.message}</Toast.Body>
+                        <Toast.Body style={{"whiteSpace": "pre-line"}}>{toastState.message}</Toast.Body>
                     </Toast>
                 </Col>
             </Row>
@@ -79,53 +79,55 @@ const Contact = () => {
                         Please feel free to contact me if you have any questions or comments.
                     </p>
                 </div>
-                <div className="col-lg-12">
-                    <form onSubmit={handleContactFormSubmit}>
-                        <div className="form-group mt-4">
-                            <label htmlFor="name">Name</label>
-                            <input type="text" className="form-control" id="name" placeholder="Enter your name"
-                                   required={true}
-                                   autoComplete={"name"}
-                                   minLength={2}
-                                   maxLength={50}
-                                   size={30}
-                                   ref={initialRef}
-                                   value={formState.name}
-                                   onChange={(e) =>
-                                       setFormState({...formState, name: e.target.value})
-                                   }
-                            />
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="email">Email address</label>
-                            <input type="email" className="form-control" id="email" placeholder="Enter email"
-                                   required={true}
-                                   autoComplete={"email"}
-                                   minLength={5}
-                                   maxLength={45}
-                                   value={formState.email}
-                                   onChange={(e) =>
-                                       setFormState({...formState, email: e.target.value})
-                                   }
-                            />
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="message">Message</label>
-                            <textarea className="form-control" id="message" rows="5"
-                                      placeholder="Enter your message"
-                                      required={true}
-                                      minLength={10}
-                                      maxLength={1000}
-                                      value={formState.message}
-                                      onChange={(e) =>
-                                          setFormState({...formState, message: e.target.value})
-                                      }
-                            />
-                        </div>
-                        <div className="d-flex justify-content-center">
-                            <button type={'submit'} className="btn btn-lg btn-primary m-2">Submit</button>
-                        </div>
-                    </form>
+                <div className="row justify-content-center">
+                    <div className="col-lg-12">
+                        <form onSubmit={handleContactFormSubmit}>
+                            <div className="form-group mt-4">
+                                <label htmlFor="name">Name</label>
+                                <input type="text" className="form-control" id="name" placeholder="Enter your name"
+                                       required={true}
+                                       autoComplete={"name"}
+                                       minLength={2}
+                                       maxLength={50}
+                                       size={30}
+                                       ref={initialRef}
+                                       value={formState.name}
+                                       onChange={(e) =>
+                                           setFormState({...formState, name: e.target.value})
+                                       }
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="email">Email address</label>
+                                <input type="email" className="form-control" id="email" placeholder="Enter email"
+                                       required={true}
+                                       autoComplete={"email"}
+                                       minLength={5}
+                                       maxLength={45}
+                                       value={formState.email}
+                                       onChange={(e) =>
+                                           setFormState({...formState, email: e.target.value})
+                                       }
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="message">Message</label>
+                                <textarea className="form-control" id="message" rows="5"
+                                          placeholder="Enter your message"
+                                          required={true}
+                                          minLength={10}
+                                          maxLength={1000}
+                                          value={formState.message}
+                                          onChange={(e) =>
+                                              setFormState({...formState, message: e.target.value})
+                                          }
+                                />
+                            </div>
+                            <div className="d-flex justify-content-center">
+                                <button type={'submit'} className="btn btn-lg btn-primary m-2">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
