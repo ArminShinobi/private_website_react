@@ -9,13 +9,11 @@ function Portfolio() {
         <div className="background-img" style={{'backgroundImage': `url(${sandBackgroundImg})`}}>
             <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
                 <div className="row justify-content-center">
-                    <div className="col-lg-12">
-                        <div className="text-center">
-                            <h2 className="mx-auto" style={{"margin-top": " 5rem"}}>Portfolio</h2>
-                            <p className="mx-auto mt-3">
-                                Projects that I worked on in university and in my free time
-                            </p>
-                        </div>
+                    <div className="col-lg-12 text-center">
+                        <h2 style={{"margin-top": "5rem"}}>Portfolio</h2>
+                        <p>
+                            Projects that I worked on in university and in my free time
+                        </p>
                     </div>
                 </div>
                 <div className="row mt-4 mx-4 work-filter">
@@ -23,7 +21,8 @@ function Portfolio() {
                         <a href="https://github.com/ArminShinobi/private_website_react" className="img-zoom">
                             <div className="work_box">
                                 <div className="work_img">
-                                    <img src={personalWebsiteImg} className="img-fluid mx-auto d-block rounded" alt={""}/>
+                                    <img src={personalWebsiteImg} className="img-fluid mx-auto d-block rounded"
+                                         alt={"Personal Website"}/>
                                 </div>
                                 <div className="work_detail">
                                     <p className="mb-2">Web Development</p>
@@ -36,7 +35,8 @@ function Portfolio() {
                         <a href="https://github.com/ordass00/IT-Projekt" className="img-zoom">
                             <div className="work_box">
                                 <div className="work_img">
-                                    <img src={individumealImg} className="img-fluid mx-auto d-block rounded" alt={""}/>
+                                    <img src={individumealImg} className="img-fluid mx-auto d-block rounded"
+                                         alt={"Individumeal IT Project"}/>
                                 </div>
                                 <div className="work_detail">
                                     <p className="mb-2">Web Development</p>
@@ -50,7 +50,8 @@ function Portfolio() {
                            className="img-zoom">
                             <div className="work_box">
                                 <div className="work_img">
-                                    <img src={cyberpunkImg} className="img-fluid mx-auto d-block rounded" alt={""}/>
+                                    <img src={cyberpunkImg} className="img-fluid mx-auto d-block rounded"
+                                         alt={"Cyberpunk IT Project"}/>
                                 </div>
                                 <div className="work_detail">
                                     <p className="mb-2">Data Science</p>
