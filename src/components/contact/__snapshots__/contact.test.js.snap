@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify Contact Snapshot 1`] = `
+<div
+  className="background-img"
+  style={
+    Object {
+      "backgroundImage": "url(pencil_background.jpg)",
+    }
+  }
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-6"
+      style={
+        Object {
+          "marginTop": "3.5rem",
+        }
+      }
+    />
+  </div>
+  <div
+    className="d-flex flex-column min-vh-100 justify-content-center align-items-center"
+  >
+    <div
+      className="col-lg-12 text-center"
+    >
+      <h2>
+        Contact
+      </h2>
+      <p>
+        Please feel free to contact me if you have any questions or comments.
+      </p>
+    </div>
+    <div
+      className="row justify-content-center"
+    >
+      <div
+        className="col-lg-12"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="form-group mt-4"
+          >
+            <label
+              htmlFor="name"
+            >
+              Name
+            </label>
+            <input
+              autoComplete="name"
+              className="form-control"
+              id="name"
+              maxLength={50}
+              minLength={2}
+              onChange={[Function]}
+              placeholder="Enter your name"
+              required={true}
+              size={30}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="email"
+            >
+              Email address
+            </label>
+            <input
+              autoComplete="email"
+              className="form-control"
+              id="email"
+              maxLength={45}
+              minLength={5}
+              onChange={[Function]}
+              placeholder="Enter email"
+              required={true}
+              type="email"
+              value=""
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              htmlFor="message"
+            >
+              Message
+            </label>
+            <textarea
+              className="form-control"
+              id="message"
+              maxLength={1000}
+              minLength={10}
+              onChange={[Function]}
+              placeholder="Enter your message"
+              required={true}
+              rows="5"
+              value=""
+            />
+          </div>
+          <div
+            className="d-flex justify-content-center"
+          >
+            <button
+              className="btn btn-lg btn-primary m-2"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

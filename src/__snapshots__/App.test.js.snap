@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div
+  className="background-img"
+  style={
+    Object {
+      "backgroundImage": "url(chair_background.jpg)",
+    }
+  }
+>
+  <div
+    className="d-flex flex-column min-vh-100 justify-content-center align-items-center"
+  >
+    <div
+      className="col-lg-12 text-center"
+    >
+      <h1>
+        Hello, I'm Armin
+      </h1>
+      <p>
+        I'm a Software Engineer
+      </p>
+    </div>
+  </div>
+  <script
+    async={true}
+    id="CookieDeclaration"
+    src="https://consent.cookiebot.com/9173d89d-ac89-4143-82cf-039b0974fdd7/cd.js"
+    type="text/javascript"
+  />
+</div>
+`;

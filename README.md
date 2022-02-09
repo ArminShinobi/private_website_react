@@ -14,3 +14,8 @@ If you have any question please feel free to contact me.
   I used a tutorial for the setup that you can
   find [here](https://dev.to/mtliendo/serverless-contact-form-using-aws-amplify-1e9m).
 - The whole website is deployed with [AWS Amplify](https://aws.amazon.com/amplify/?nc1=h_ls).
+- The formatting and linting of the website is done with [ESLint](https://eslint.org/) and 
+  [Prettier](https://prettier.io/).  
+  I used a tutorial for the setup that you can find 
+  [here](https://dev.to/knowankit/setup-eslint-and-prettier-in-react-app-357b).
+- The images are taken from [unsplash](https://unsplash.com/).

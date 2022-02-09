@@ -3,27 +3,27 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/navbar/navbar';
-import About from "./components/about/about";
-import Experience from "./components/experience/experience";
-import Portfolio from "./components/portfolio/portfolio";
-import Contact from "./components/contact/contact";
-import PrivacyPolicy from "./components/privacy-policy/privacy-policy";
+import About from './components/about/about';
+import Experience from './components/experience/experience';
+import Portfolio from './components/portfolio/portfolio';
+import Contact from './components/contact/contact';
+import PrivacyPolicy from './components/privacy-policy/privacy-policy';
 
 ReactDOM.render(
   <React.StrictMode>
-      <Router>
-          <NavBar/>
-          <Routes>
-              <Route exact path="/" element={<App />} />
-              <Route path="/about_me" element={<About />} />
-              <Route path="/experience" element={<Experience />} />
-              <Route path="/portfolio" element={<Portfolio />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/privacy_policy" element={<PrivacyPolicy />} />
-          </Routes>
-      </Router>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route exact path="/" element={<App />} />
+        <Route path="/about_me" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

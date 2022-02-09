@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify Portfolio Snapshot 1`] = `
+<div
+  className="background-img"
+  style={
+    Object {
+      "backgroundImage": "url(sand_background.jpg)",
+    }
+  }
+>
+  <div
+    className="d-flex flex-column min-vh-100 justify-content-center align-items-center"
+  >
+    <div
+      className="row justify-content-center"
+    >
+      <div
+        className="col-lg-12 text-center"
+      >
+        <h2
+          style={
+            Object {
+              "marginTop": "5rem",
+            }
+          }
+        >
+          Portfolio
+        </h2>
+        <p>
+          Projects that I worked on in university and in my free time
+        </p>
+      </div>
+    </div>
+    <div
+      className="row mt-4 mx-4 work-filter"
+    >
+      <div
+        className="col-lg-4 work_item wordpress WORK webdesign"
+      >
+        <a
+          className="img-zoom"
+          href="https://github.com/ArminShinobi/private_website_react"
+        >
+          <div
+            className="work_box"
+          >
+            <div
+              className="work_img"
+            >
+              <img
+                alt="Personal Website"
+                className="img-fluid mx-auto d-block rounded"
+                src="personal_website.png"
+              />
+            </div>
+            <div
+              className="work_detail"
+            >
+              <p
+                className="mb-2"
+              >
+                Web Development
+              </p>
+              <h4
+                className="mb-0"
+              >
+                Personal Website
+              </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        className="col-lg-4 work_item webdesign wordpress"
+      >
+        <a
+          className="img-zoom"
+          href="https://github.com/ordass00/IT-Projekt"
+        >
+          <div
+            className="work_box"
+          >
+            <div
+              className="work_img"
+            >
+              <img
+                alt="Individumeal IT Project"
+                className="img-fluid mx-auto d-block rounded"
+                src="individumeal.png"
+              />
+            </div>
+            <div
+              className="work_detail"
+            >
+              <p
+                className="mb-2"
+              >
+                Web Development
+              </p>
+              <h4
+                className="mb-0"
+              >
+                Individumeal
+              </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        className="col-lg-4 work_item WORK webdesign seo"
+      >
+        <a
+          className="img-zoom"
+          href="https://github.com/ordass00/Text-Analytics-Project-Elective-TH.OHM"
+        >
+          <div
+            className="work_box"
+          >
+            <div
+              className="work_img"
+            >
+              <img
+                alt="Cyberpunk IT Project"
+                className="img-fluid mx-auto d-block rounded"
+                src="cyberpunk_2077.png"
+              />
+            </div>
+            <div
+              className="work_detail"
+            >
+              <p
+                className="mb-2"
+              >
+                Data Science
+              </p>
+              <h4
+                className="mb-0"
+              >
+                Cyberpunk 2077 Text Analytics
+              </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
