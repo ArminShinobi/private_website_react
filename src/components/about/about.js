@@ -1,4 +1,4 @@
-import profilePictureImg from '../../img/foreground/profile_picture.jpeg';
+import profilePictureImg from '../../img/foreground/profile_picture.png';
 import waterBackgroundImg from '../../img/background/water_background.jpg';
 
 function About() {
