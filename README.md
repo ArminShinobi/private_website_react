@@ -1,6 +1,6 @@
 ## Hello and welcome to my personal website.
 Here you can find the source code of [my website](https://www.armin-bruckmann.de) and some background information. \
-If you have any question please feel free to contact me.
+If you have any question, please feel free to contact me.
 
 
 ### The following components are used:
