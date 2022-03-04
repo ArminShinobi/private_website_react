@@ -22,12 +22,12 @@ function About() {
             <p>
               Currently, I am studying Computer Science at the technical college Georg Simon Ohm,
               Nuremberg Germany. I expect to finish my Bachelor&apos;s degree in the summer semester
-              of 2022.
+              of 2022. I am writing my bachelor thesis in cooperation with GfK Media Measurement.
             </p>
             <p>
-              I have been working as a student trainee at GfK in Nuremberg, Germany since November
-              2019. I am developing automated tests for a web application with my team in an agile
-              environment using Robot Framework.
+              I worked as a student trainee at GfK in Nuremberg, Germany from November 2019 to
+              February 2022. I developed automated tests for a web application with my team in an
+              agile environment using Robot Framework.
             </p>
           </div>
         </div>
