@@ -17,17 +17,30 @@ function About() {
             <h2>About Me</h2>
             <h4>Hi! My name is Armin Bruckmann</h4>
             <p className="mt-4">
-              I graduated from Peter Vischer Gymnasium in 2017 with a grade of 2.5.
+              In 2017, I graduated from Peter Vischer Gymnasium with a grade of 2.5. My academic
+              journey led me to the Technical College Georg Simon Ohm in Nuremberg, where I earned
+              my Bachelor&apos;s degree in Computer Science in the winter semester of 2022 with a
+              grade of 2.0. During this time, I collaborated on projects, including a
+              Bachelor&apos;s thesis with GfK Media Measurement.
             </p>
             <p>
-              Currently, I am studying Computer Science at the technical college Georg Simon Ohm,
-              Nuremberg Germany. I expect to finish my Bachelor&apos;s degree in the summer semester
-              of 2022. I am writing my bachelor thesis in cooperation with GfK Media Measurement.
+              Simultaneously, I gained hands-on experience as a student trainee at GfK from November
+              2019 to February 2022. In this role, I developed automated tests for web applications
+              using Robot Framework.
             </p>
             <p>
-              I worked as a student trainee at GfK in Nuremberg, Germany from November 2019 to
-              February 2022. I developed automated tests for a web application with my team in an
-              agile environment using Robot Framework.
+              Later, from April to October 2022, I worked as a working student at Viind. There, I
+              focused on enhancing the central management frontend, improving the user experience,
+              and boosting system efficiency using Next.js, React, and TypeScript.
+            </p>
+            <p>
+              In December 2022, I began my journey at S.L Trans as a working student, later
+              transitioning into a software developer role. My ongoing project involves creating an
+              independent platform for company management. I am using a cutting-edge tech stack,
+              including React and AWS Amplify Studio, which includes services like AppSync,
+              DynamoDB, S3, and Cognito. This platform automates work processes and enhances overall
+              efficiency, thanks to close collaboration with the CEO and the related department.
+              Scrum methodologies ensure timely feature delivery.
             </p>
           </div>
         </div>
