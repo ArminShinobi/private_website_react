@@ -1,45 +1,87 @@
 {
   "api": {
     "privatewebsite": {
-      "service": "AppSync",
-      "providerPlugin": "awscloudformation",
       "output": {
         "authConfig": {
+          "additionalAuthenticationProviders": [],
           "defaultAuthentication": {
-            "authenticationType": "API_KEY",
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 365,
               "apiKeyExpirationDate": "2022-12-15T19:04:41.327Z",
+              "apiKeyExpirationDays": 365,
               "description": "private-website-contact-form"
-            }
-          },
-          "additionalAuthenticationProviders": []
+            },
+            "authenticationType": "API_KEY"
+          }
         }
-      }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
     }
   },
   "function": {
     "privateWebsiteContactForm": {
       "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda",
       "dependsOn": [
         {
-          "category": "api",
-          "resourceName": "privatewebsite",
           "attributes": [
             "GraphQLAPIIdOutput",
             "GraphQLAPIEndpointOutput"
-          ]
+          ],
+          "category": "api",
+          "resourceName": "privatewebsite"
         }
-      ]
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   },
   "hosting": {
     "amplifyhosting": {
+      "lastPushTimeStamp": "2021-12-23T12:01:30.246Z",
       "service": "amplifyhosting",
-      "type": "cicd",
-      "lastPushTimeStamp": "2021-12-23T12:01:30.246Z"
+      "type": "cicd"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_privateWebsiteContactForm_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "privateWebsiteContactForm"
+        }
+      ]
+    },
+    "AMPLIFY_function_privateWebsiteContactForm_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "privateWebsiteContactForm"
+        }
+      ]
+    },
+    "AMPLIFY_function_privateWebsiteContactForm_sesEmail": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "privateWebsiteContactForm"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
     }
   }
 }
